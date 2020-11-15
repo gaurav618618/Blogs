@@ -4,7 +4,7 @@
 void onSuccessful()
 {
     printf("You can now access me Thank you for purchasing my license!");
-    exit(0);
+    return;
 }
 void onFail()
 {
@@ -35,6 +35,5 @@ int main()
             onFail();
         }
     }
-
     return 0;
 }
